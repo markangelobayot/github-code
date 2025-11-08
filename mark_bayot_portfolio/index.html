@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Personal Portfolio</title>
+
+    <!-- Boxicons for icons -->
+    <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet">
+
+    <!-- External CSS file -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+        <a href="#" class="logo">My Portfolio</a>
+        <ul>
+            <li class="active"><a href="#home">Home</a></li>
+            <li><a href="#about">About Me</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- Animated Background Bars -->
+    <div class="bars-animation">
+        <div class="bar" style="--i:6"></div>
+        <div class="bar" style="--i:5"></div>
+        <div class="bar" style="--i:4"></div>
+        <div class="bar" style="--i:3"></div>
+        <div class="bar" style="--i:2"></div>
+        <div class="bar" style="--i:1"></div>
+    </div>
+
+    <!-- Home Section -->
+    <section class="home" id="home">
+        <div class="home-info">
+            <h1>Mark Angelo Bayot</h1>
+            <h2>
+                I'm a
+                <span style="--i:4;" data-text="Web Developer">Web Developer</span>
+                <span style="--i:3;" data-text="Software Engineer">Software Engineer</span>
+                <span style="--i:2;" data-text="Influencer">Influencer</span>
+                <span style="--i:1;" data-text="Content Creator">Content Creator</span>
+            </h2>
+            <p>
+                Hey! I'm Mark Angelo Bayot — a 20-year-old creator and learner. 
+                Explore my work, discover my skills, and get to know more about me here.
+            </p>
+
+            <div class="btn-sci">
+                <a href="#" class="btn">Download CV</a>
+                <div class="sci">
+                    <a href="#"><i class='bx bxl-github'></i></a>
+                    <a href="#"><i class='bx bxl-twitter'></i></a>
+                    <a href="#"><i class='bx bxl-youtube'></i></a>
+                </div>
+            </div>
+        </div>
+
+        <div class="home-img">
+            <div class="img-box">
+                <div class="img-item">
+                    <img src="image/home.jpg" alt="Mark Angelo Bayot">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="section">
+        <h3>About Me</h3>
+        <div class="about-content">
+            <div class="about-image">
+                <img src="image/home.jpg" alt="Profile Picture">
+            </div>
+            <div class="about-text">
+                <h4>BSIS STUDENTS</h4>
+                <p>
+                    I'm a 20-year-old software developer passionate about building 
+                    modern, responsive web applications. I enjoy learning new 
+                    technologies, developing creative projects, and solving 
+                    real-world problems through code.
+                </p>
+                <a href="#" class="read-more-btn">Read More</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="section">
+        <h3>My Skills</h3>
+        <div class="skills-container">
+            <div class="skill">
+                <h4>HTML</h4>
+                <div class="skill-bar">
+                    <div class="skill-level" style="width: 90%;"></div>
+                </div>
+                <span>90%</span>
+            </div>
+
+            <div class="skill">
+                <h4>CSS</h4>
+                <div class="skill-bar">
+                    <div class="skill-level" style="width: 85%;"></div>
+                </div>
+                <span>85%</span>
+            </div>
+
+            <div class="skill">
+                <h4>JavaScript</h4>
+                <div class="skill-bar">
+                    <div class="skill-level" style="width: 75%;"></div>
+                </div>
+                <span>75%</span>
+            </div>
+
+            <div class="skill">
+                <h4>Python</h4>
+                <div class="skill-bar">
+                    <div class="skill-level" style="width: 70%;"></div>
+                </div>
+                <span>70%</span>
+            </div>
+
+            <div class="skill">
+                <h4>Git</h4>
+                <div class="skill-bar">
+                    <div class="skill-level" style="width: 80%;"></div>
+                </div>
+                <span>80%</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section">
+        <h3>Contact Me!</h3>
+        <form id="contactForm" class="contact-form">
+            <div class="form-group">
+                <input type="text" id="fullName" name="fullName" placeholder="Full Name" required>
+            </div>
+            <div class="form-group">
+                <input type="email" id="emailAddress" name="emailAddress" placeholder="Email Address" required>
+            </div>
+            <div class="form-group">
+                <input type="tel" id="mobileNumber" name="mobileNumber" placeholder="Mobile Number">
+            </div>
+            <div class="form-group">
+                <input type="text" id="emailSubject" name="emailSubject" placeholder="Email Subject">
+            </div>
+            <div class="form-group">
+                <textarea id="yourMessage" name="yourMessage" placeholder="Your Message" required></textarea>
+            </div>
+            <button type="submit" class="btn">Submit</button>
+        </form>
+    </section>
+
+</body>
+</html>
+Sumulat sa Mark Angelo Payos Bayot
